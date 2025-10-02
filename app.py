@@ -7,7 +7,7 @@ import streamlit as st
 
 from src.config import Settings
 from src.utils import ensure_dirs, Timer
-from src.ingest import ingest_pdfs
+
 from src.vectorstore import VectorStore
 from src.retriever import Retriever
 from src.rag_chain import RAGChain
